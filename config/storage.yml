@@ -11,7 +11,7 @@ amazon:
   service: S3
   access_key_id: 3C8GHZZD591GVABQ87AW
   secret_access_key: tC7LvrVvOVkrxVZddUCqejNL44UTBsGhjSMLbBZe
-  region: us-east-1
+  region: 
   bucket: itec-cms
   endpoint: "http://172.16.34.21:9000"
   force_path_style: true
