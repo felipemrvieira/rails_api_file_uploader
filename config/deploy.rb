@@ -6,7 +6,7 @@ append :linked_files, 'config/database.yml' , 'config/master.key'
 lock "~> 3.11.2"
 
 set :application, "governo-de-alagoas"
-set :repo_url, "git@github.com:felipemrvieira/governo_de_alagoas-api.git"
+set :repo_url, "git@github.com:felipemrvieira/rails_api_file_uploader.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
