@@ -2,8 +2,8 @@ class UsersController < ApplicationController
 
   def index
     render json: User.all
-  end
-
+  end 
+  
   def create
       user = User.new(create_params)
       if user.save
